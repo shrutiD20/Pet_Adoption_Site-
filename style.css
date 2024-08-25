@@ -1,0 +1,60 @@
+span{
+    
+    color: #ff6347; /* Tomato color for emphasis */
+    font-weight: bold; /* Makes the text bold */
+    font-size: 4em; /* Slightly increases the font size for emphasis */
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap to the next line */
+    justify-content: space-evenly; /* Distributes the items evenly */
+}
+
+.Pet{
+    display: flex;
+    flex-direction: column; /* Aligns items vertically */
+    align-items: center; /* Centers items horizontally */
+    text-align: center; /* Centers text inside the .Pet div */
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 1s ease;
+}
+
+.Pet:hover{
+    background-color: rgb(252, 222, 184);
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0 8px 16px rgb(69, 55, 32);
+}
+
+
+.Pet img{
+    border-radius: 15px;
+    border: 4px dashed rgba(231, 154, 54, 0.978)
+}
+
+.adopt-btn{
+    /* background-color: rgb(252, 199, 129);
+    color: black;
+    border-color: brown;
+    border-radius: 4px; */
+
+    background-color: #fe7259; /* Tomato color for the button */
+    color: white; /* White text color */
+    border: none; /* Removes default border */
+    padding: 10px 20px; /* Adds padding inside the button */
+    border-radius: 5px; /* Curves the corners of the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 16px; /* Increases font size */
+    margin-top: 10px; /* Adds space above the button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.adopt-btn:hover {
+    background-color: #ff4500; /* Darker orange on hover */
+}
